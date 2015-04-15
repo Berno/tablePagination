@@ -46,7 +46,10 @@
 				$('#table_data').html(displayData);	
 				
 				// Pagination Init
-				$('#table_data').tablePaginate({navigateType:'navigator'});
+				$('#table_data').tablePaginate({
+                    navigateType:'navigator',
+                    paginationWrapClass:'custom_name_class'
+                });
 			}); 
 		});
 	</script>

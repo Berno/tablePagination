@@ -1,14 +1,34 @@
 .pagination-btn{
-	float: left;
-	color: #333;
-	font-size:14px;
-	line-height:24px;
-	font-weight: normal;
-	text-align: center;
-	border: 1px solid #AAA;
-	margin:2px;
-	min-width: 14px;
-	padding:  0 7px;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-	
+    float: left;
+    color: #343434;
+    font-size:1em;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin:2px;
+    min-width: 14px;
+    padding:  2px 4px;
+    background-color: #f2f2f2;
+}
+
+span.pagination {
+    width: 100%;
+    display: block;
+    margin: 1% 0;
+}
+
+.pagination-btn.selected{
+    border: 1px solid #666;
+    background-color: #cecece;
+}
+
+.pagination-btn:hover {
+    background-color: #fefefe;
+}
+
+.pagination .dots {
+    float: left;
+    display: block;
+    color: #343434;
+    line-height: 20px;
 }
